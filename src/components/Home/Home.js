@@ -5,7 +5,7 @@ import Posts from '../Posts/Posts';
 
 const Home = () => {
     return (
-        <Container>
+        <Container className="mt-5">
             <Row>
                 <Col md={7}>
                     <Posts></Posts>
