@@ -6,19 +6,19 @@ const Form = () => {
         <>
             <form className="form-main">
                 <div className="form-group">
-                    <label for="formGroupExampleInput">Creator</label>
+                    <label htmlFor="formGroupExampleInput">Creator</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Creator Name"/>
                 </div>
                 <div className="form-group">
-                    <label for="formGroupExampleInput">Title</label>
+                    <label htmlFor="formGroupExampleInput">Title</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter Title"/>
                 </div>
                 <div className="form-group">
-                    <label for="formGroupExampleInput">Message</label>
+                    <label htmlFor="formGroupExampleInput">Message</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter Your Message"/>
                 </div>  
                 <div className="form-group">
-                    <label for="formGroupExampleInput">Tags</label>
+                    <label htmlFor="formGroupExampleInput">Tags</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter Your Tags"/>
                 </div>    
                 <button className="btn btn-primary w-100 mt-3 mb-4">Submit</button>                            
